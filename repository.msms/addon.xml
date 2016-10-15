@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.msms" name="MSMS repo" version="0.1.0" provider-name="MSMS">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="MSMS repo">
+            <info compressed="false">https://raw.githubusercontent.com/sayuthisobri/msms.kodi.repo/_repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/sayuthisobri/msms.kodi.repo/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sayuthisobri/msms.kodi.repo/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>www.msms.cf</summary>
+            <description>MSMS repo.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
